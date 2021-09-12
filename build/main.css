@@ -1,0 +1,376 @@
+/*!*********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/Styles/main.scss ***!
+  \*********************************************************************************************************************************************************/
+.center-cs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.center-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-space-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-space-a-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.center-space-a-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.block-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  font-weight: normal;
+  font-size: 50px;
+  color: #ffffff;
+  outline: none;
+}
+
+.block-input::placeholder {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.--block-main-extension-a {
+  width: 232px;
+  transition: 0.5s;
+}
+
+.--block-main-extension-d {
+  width: 90px;
+  transition: 0.5s;
+}
+
+.--block-li-d {
+  height: 400%;
+  transition: 0.3s;
+}
+
+.--block-li-a {
+  height: 100%;
+  transition: 0.3s;
+}
+
+.--icon-sw-d {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+
+.--icon-sw-a {
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+@media (max-width: 575px) {
+  .--a-black-form {
+    height: 90%;
+    visibility: inherit;
+  }
+}
+
+@media (max-width: 575px) {
+  .--d-black-form {
+    height: 0%;
+    visibility: hidden;
+  }
+}
+
+.--heddeing {
+  visibility: hidden;
+}
+@media (max-width: 575px) {
+  .--heddeing {
+    visibility: hidden;
+  }
+}
+
+.--none-heddeing {
+  visibility: hidden;
+}
+@media (max-width: 575px) {
+  .--none-heddeing {
+    visibility: inherit;
+  }
+}
+
+.--d-create-notea {
+  height: 65%;
+}
+@media (max-width: 575px) {
+  .--d-create-notea {
+    height: 20%;
+  }
+}
+
+.--a-create-notea {
+  height: 65%;
+}
+@media (max-width: 575px) {
+  .--a-create-notea {
+    height: 65%;
+  }
+}
+
+.--a-main-component-result {
+  height: 35%;
+}
+@media (max-width: 575px) {
+  .--a-main-component-result {
+    height: 80%;
+  }
+}
+
+.--d-main-component-result {
+  height: 35%;
+}
+@media (max-width: 575px) {
+  .--d-main-component-result {
+    height: 35%;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Agency FB";
+}
+
+body {
+  background-color: #d93e1c;
+  height: 100vh;
+}
+body .main-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.min-component-form {
+  width: 100%;
+}
+.min-component-form .block-form {
+  width: 65%;
+  background-color: #f33b3b;
+}
+@media (max-width: 575px) {
+  .min-component-form .block-form {
+    width: 100%;
+  }
+}
+
+.min-component-res {
+  width: 100%;
+}
+.min-component-res .title-res {
+  font-family: "Agency FB";
+  font-weight: bold;
+  font-size: 167px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.86);
+}
+@media (max-width: 575px) {
+  .min-component-res .title-res {
+    font-size: 85px;
+  }
+}
+.min-component-res .main-container-res {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding: 10px;
+}
+.min-component-res ::-webkit-scrollbar {
+  width: 0px;
+}
+
+.block-but {
+  width: 100%;
+  height: 15%;
+  background-color: white;
+}
+.block-but .but-save {
+  width: 30%;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #5fde47;
+}
+@media (max-width: 575px) {
+  .block-but .but-save {
+    width: 105px;
+  }
+}
+
+.container-main-input {
+  width: 100%;
+  height: 302px;
+}
+@media (max-width: 575px) {
+  .container-main-input {
+    height: 85%;
+  }
+}
+.container-main-input .container-input-t {
+  width: 90%;
+  height: 30%;
+}
+@media (max-width: 575px) {
+  .container-main-input .container-input-t {
+    height: 25%;
+  }
+}
+.container-main-input .container-input-t .input-title {
+  border-bottom: 1px solid #fff;
+}
+.container-main-input .container-input-n {
+  width: 90%;
+  height: 75%;
+}
+.container-main-input .container-input-n .input-notes {
+  resize: none;
+}
+
+.container-main-extension {
+  width: 100%;
+  height: 15%;
+  background-color: #fcefe7;
+}
+.container-main-extension .block-main-extension {
+  height: 40px;
+  background: transparent;
+  overflow: hidden;
+}
+.container-main-extension .block-main-extension .block-li {
+  width: 100%;
+  background-color: #fff;
+  list-style: none;
+}
+.container-main-extension .block-main-extension .block-li .li-align {
+  color: #f54620;
+  font-size: 30px;
+}
+.container-main-extension .block-main-extension .block-sw {
+  width: 12px;
+  height: 100%;
+  background: #f54620;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.container-main-extension .block-main-extension .block-sw .icon-sw {
+  color: #fff;
+}
+
+.block-create-notes {
+  width: 90%;
+  height: 100px;
+  border-bottom: 1px solid #fff;
+}
+
+.but-create-notes {
+  width: 50%;
+  height: 50px;
+  color: #5fde47;
+  font-size: 40px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.main-card-res {
+  width: 369px;
+  height: 216px;
+  position: relative;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+}
+.main-card-res .card-res {
+  width: 338px;
+  height: 170px;
+  border-radius: 21px;
+  background: #eb7528;
+  box-shadow: 0px 0px 10px #000;
+}
+.main-card-res .card-res .but-delete-notes {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #f52020;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+.main-card-res .card-res .but-delete-notes::after {
+  position: absolute;
+  content: "";
+  height: 12px;
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  transform: rotate(45deg);
+}
+.main-card-res .card-res .but-delete-notes::before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  transform: rotate(-45deg);
+}
+.main-card-res .card-res .notes {
+  color: #fff;
+}
+.main-card-res .card-res .title-notes {
+  width: 70%;
+  height: 30%;
+  font-weight: normal;
+  font-size: 31px;
+  text-align: left;
+}
+.main-card-res .card-res .body-notes {
+  width: 95%;
+  height: 60%;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+}
+.main-card-res .card-res .block-extesion {
+  width: 90%;
+  height: 21%;
+  top: 75%;
+  position: absolute;
+}
+.main-card-res .card-res .block-extesion .but-align {
+  width: 48px;
+  height: 40px;
+  border-radius: 5px;
+  background: #5fde47;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}

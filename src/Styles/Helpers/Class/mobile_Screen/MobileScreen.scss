@@ -1,0 +1,38 @@
+// class names a form
+.--a-black-form {
+  @media (max-width: 575px) {
+    height: 90%;
+    visibility: inherit;
+  }
+}
+.--d-black-form {
+  @media (max-width: 575px) {
+    height: 0%;
+    visibility: hidden;
+  }
+}
+// class names for create button notea
+.--heddeing {
+  visibility: hidden;
+  @media (max-width: 575px) {
+    visibility: hidden;
+  }
+}
+.--none-heddeing {
+  visibility: hidden;
+  @media (max-width: 575px) {
+    visibility: inherit;
+  }
+}
+.--d-create-notea {
+  height: 65%;
+  @media (max-width: 575px) {
+    height: 20%;
+  }
+}
+.--a-create-notea {
+  height: 65%;
+  @media (max-width: 575px) {
+    height: 65%;
+  }
+}

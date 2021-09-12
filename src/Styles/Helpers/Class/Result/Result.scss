@@ -1,0 +1,12 @@
+.--a-main-component-result {
+  height: 35%;
+  @media (max-width: 575px) {
+    height: 80%;
+  }
+}
+.--d-main-component-result {
+  height: 35%;
+  @media (max-width: 575px) {
+    height: 35%;
+  }
+}

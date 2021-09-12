@@ -1,0 +1,10 @@
+.min-component-form {
+  width: 100%;
+  .block-form {
+    width: 65%;
+    background-color: rgb(243, 59, 59);
+    @media (max-width: 575px) {
+      width: 100%;
+    }
+  }
+}

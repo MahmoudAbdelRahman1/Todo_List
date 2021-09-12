@@ -1,0 +1,24 @@
+.container-main-input {
+  width: 100%;
+  height: 302px;
+  @media (max-width: 575px) {
+    height: 85%;
+  }
+  .container-input-t {
+    width: 90%;
+    height: 30%;
+    @media (max-width: 575px) {
+      height: 25%;
+    }
+    .input-title {
+      border-bottom: 1px solid #fff;
+    }
+  }
+  .container-input-n {
+    width: 90%;
+    height: 75%;
+    .input-notes {
+      resize: none;
+    }
+  }
+}
